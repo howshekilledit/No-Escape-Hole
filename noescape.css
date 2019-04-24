@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {background-color: #282e34	; font-family: ubuntu-mono, monospace, sans-serif !important; color: #cdd0d2; margin: 0; padding: 0}
+
+#content{display:inline-block; width:70%; }
+#content, #nav, a, #instr, #splash, #warning, #artist, #hidewarn, ul, li, .essay, #aboutpage, #xing, #bios, #works, #about, #aboutpage.essay, .essay#aboutpage, #xing.essay, .essay#xing, p, .essay#xing p, essay#xing p, #aboutpage.essay p, .essay#aboutpage p, strong, em {font-family: ubuntu-mono, consolas, monaco, monospace, sans-serif !important;}
+#artist em {font-family: ubuntu-mono, consolas, monaco, monospace, sans-serif !important;}
+.homeinst#instr, #instr.homeinst {font-size:12px !important}
+strong {text-transform:none !important; font-weight:bold !important}
+em {font-style:italic !important}
+strong em {font-style:italic !important; font-weight:bold !important}
+#nav a.artlink {font-size:16px !important}
+#content.blackcube, .blackcube#content{width:100%}
+h1.blackcube{display:none}
+#thumb{}
+#arrows{display:none}
+#nav{display:inline-block; text-align:right; padding: 20px; width:25% }
+caption, .caption {display:block; font-size:11px;  font-style:oblique}
+.essay{width:70%; margin:auto;line-height:1.4; padding:150px; background-color:white; color: black;}
+.essay a {color: gray}
+.essay a:hover {color:red}
+/*hr::before, hr::after{content:"⊗"}*/
+/*h1 {font-family: nova-mono, sans-serif;
+ background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; font-size:40px}*/
+  h2#noescape, h3#noescape{font-family: nova-mono, sans-serif !important; font-weight:bold !important}
+  h2#noescape{font-size:24px !important}
+ h1,  h1#noescape, #mmenu{background-color:gray; background: -webkit-linear-gradient(#eee, #333); color: #282e34; font-family: nova-mono, sans-serif !important; padding:15px !important; margin:0px 0px 30px 0px !important} 
+  h1::before{content: '⊗ ⊗ ⊗ ⊗ ⊗ ⊗ ⊗ ⊗ ⊗ '}
+ .work{margin: 30px 0px 90px 0px}
+ .work img {width:90%; }
+ #jenna, #poem{margin:auto}
+ #poem{padding: 20px; background-color:#708090; color: white; font-size:16px; }
+ .artlink{display:block; line-height:1.8}
+.orig, .replicant {color:white; padding:20px; display:block;}
+	.received {text-align:left; width: 70%; margin:auto /*background-color: #DCDCDC*/ }
+	.sent {text-align:right; width: 70%; margin:auto /*background-color: #cceeff;*/}
+	#ellipse{font-size:20px; font-weight:bolder}
+a{color: yellow; text-decoration:none}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+#thumb{width:800px; height: 450px; overflow:hidden; }
+/*#box4{border-width: 4px 4px 4px 0px; padding: 10px}
+#box3{border-width: 0px 6px 6px 6px; width:800px; height: 450px; overflow:hidden;  }
+#box2{border-width: 8px 8px 0px 8px; padding: 20px}
+#box1{border-width: 10px 10px 10px 0px; padding: 30px; background-color:#423E3E}*/
+u{text-decoration:none; text-transform: uppercase}
+#instr{rfont-size: 18px; width: 800px; font-style:italic}
+#warning{display:none}
+#arrows{font-size:30px}
+#artist {font-size: 20px; text-align:left; padding: 15px 0px 15px 2px}
+#jenna{padding:0; background-image: url("https://greenmorgan.com/assets/textlong.png"); width:100%;   background-size: 100%; height: 20000px}
+	#scroll{width:400px; height:700px; margin:30px auto auto auto; border:1px solid #ccc;overflow:auto;}
+#hidewarn{text-align:right; font-size:30px; padding:0px 10px 0px 0px}
+#hidewarn:hover{color:#00a86b}
+#mmenu{display:none; text-align:right}
+#mobilenav{font-size:1em; text-align:center; display:none}
+.moblink:hover{color:red}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+ #thumb:hover{
+  boder-color: #fdec6e;
+   outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+#splash{font-size:20px; padding:100px; width:800px; margin:auto;  background-color:gray; background: -webkit-linear-gradient(#eee, #333); text-align:center}
+#splash h1{background:none; padding:0}
+#splash h1::before, #splash h1::after{content:"⊗ ⊗"} 
+#splash a{color: #282e34;}
+#enter{font-size:40px; }
+#splash #instr{text-shadow:0px 0px 30px white; opacity:.25}
+#splash a:hover{color:white;   text-shadow:0px 0px 30px white;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;}
+#about{text-align:right}
+iframe#hay {width:960px;height:540px}
+a#intro, a#uncannyx {animation: pulse 3s infinite; font-size:20px; font-weight:bold}
+a#intro:hover,a#uncannyx:hover {text-decoration:overline}
+
+@keyframes pulse {
+  0% {
+  color: skyblue;
+  }
+  50% {
+color: hotpink;
+  }
+   100% {
+  color: skyblue;
+  }
+}
+ @media(max-width: 1024px){
+	
+	 .essay{width:100%; margin:none;  padding: 20px; font-size:.8em}
+	#warning{display:block; font-size: 1em; color: #282e34; border: solid; background-color:#BA5658;  padding:15px; margin-bottom:10px}
+	#scroll{width:100%; height: 20000px; margin:none;}
+	#content{width:100%}
+	#content img{width:100%;  height:auto}
+	#arrows{display:none}
+	#box3{width:100%; height:inherit}
+	#nav{font-size:1em; text-align:center; display:none; width:100%}
+	#mmenu, h1, h1#noescape {display:inline-block; background:none; color: inherit; font-size:1.5em}
+	#mmenu{float:right; padding-right:10px; color:red }
+	#instr{display:none}
+	h1::before{content:""}
+	#splash{width:100%;  padding:20%; text-align:left}
+	#splash h1{display:block; font-size:1.5em; color: #282e34; width:100%}
+	#splash h1::before, #splash h1::after{content:"⊗"} 
+	h1.blackcube{display:inline-block}
+	/*#splash h1::after{content:""}*/
+	#enter{font-size:2em}
+	#jenna img{visibility:hidden}
+	#about{text-align:center}
+ }
+ 
+  @media(max-width: 600px){
+	  
+	  #about, #content, #nav, a, #instr, #splash, #warning, #artist, #hidewarn, ul, li, .essay {font-weight:bold}
+	  
+
+  }
+ 
+@-moz-document url-prefix() {
+ #instr{display:none}
+}
