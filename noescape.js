@@ -17,7 +17,7 @@ $(document).ready(function(){
 	});
 	//var splashcont = '<div id="warning">This content is designed to display full screen on a personal computer or tablet.<ul><li> <b>If you are using a computer, </b>please expand the browser full screen. </li><li> <b>If you are using a tablet,</b> please turn your device sideways.</li><li><b> If you are using a phone, </b>please consider another device.</li></ul><div id="hidewarn">HIDE ME ⊗ </div></div><div id = "splash"><h1>no escape hole</h1><br/><a id = "enter">ENTER</a><br/><br/><div id="instr">'+instr+'</div>'; 
 	
-	var bodycont = '<h1 id = "noescape">no escape hole</h1><h2 id="mmenu">menu</h2><div id="nav" style="vertical-align:top">' + nav + '</div> <div id="content"> <img id="thumb" src="http://greenmorgan.com/assets/loading.jpeg" class=""> <div id="artist">		</div> <div class = "homeinst" id="instr"> ' + instr + '</div> </div>';
+	var bodycont = '<h1 id = "noescape">no escape hole</h1><h2 id="mmenu">menu</h2><div id="nav" style="vertical-align:top">' + nav + '</div> <div id="content"> <img id="thumb" src="https://howshekilledit.com/assets/loading.jpeg" class=""> <div id="artist">		</div> <div class = "homeinst" id="instr"> ' + instr + '</div> </div>';
 		var url      = window.location.href;  // get current URL
 	var current; //index of work currently displayed
 if(url.indexOf('?') ===-1 || url.substring(url.indexOf('?')).length> 4){
@@ -144,7 +144,7 @@ function rollworks(a, works, instr){
 		$('#artist').html("Learn more about the exhibition and the artists."); 
 	}
 	//$('#arttitle').text(works[a].title); 
-	$('#thumb').attr('src', 'http://greenmorgan.com/assets/'+works[a].thumb); 
+	$('#thumb').attr('src', 'https://howshekilledit.com/assets/'+works[a].thumb); 
 	$('#thumb').attr('class', 't'+a); 
 	$('#thumb').click(function(){
 			showwork(a, works); 
@@ -258,7 +258,7 @@ works[12].part2 = '<h2 id = "noescape">Crossing the Uncanny Valley</h2><p>Las Ro
 
 
 
-works[9].html =  '<div id = "scroll" ><div id = "jenna" width = "100%" ><!--img src = "http://greenmorgan.com/assets/textlong.png" width = "100%"--></div></div>';
+works[9].html =  '<div id = "scroll" ><div id = "jenna" width = "100%" ><!--img src = "https://howshekilledit.com/assets/textlong.png" width = "100%"--></div></div>';
 works[9].desc = "Digitally collaged to create an infinite unknowable conversation text is a painting that plays on the formal qualities and formality of the iMessage. Whether the text contained within the bubbles has been deleted, obscured, or simply forgotten is left unsaid. Scroll to your <3's content."; 
  //Jenna
 
@@ -270,7 +270,7 @@ works[9].onclick = function(){ //Jenna
 	
 		$('#jenna').css('height', height); 
 	//	alert(height); 
-		//$('#scroll').append('<img src = "http://greenmorgan.com/assets/textlong.png" width = "100%" style = "margin-top:-8px">'); 
+		//$('#scroll').append('<img src = "https://howshekilledit.com/assets/textlong.png" width = "100%" style = "margin-top:-8px">'); 
 	});
 	$(window).scroll(function () {
 		//alert('scroll'); 
@@ -289,13 +289,13 @@ works[2].onclick = function(){ //Hayeon
 	fullscreen(this.html);
 };
 
-works[0].html = '<img class ="joo" src ="http://greenmorgan.com/assets/Water.gif" width = "100%"/><img class = "joo" src = "http://greenmorgan.com/assets/jootext.gif" width = "100%" />'+"<div class='embed-container' id = 'joocont' ><iframe src='https://player.vimeo.com/video/298800899?byline=false;title=false;portrait=false;' frameborder='0'  id = 'joovid' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>";  //Joo
+works[0].html = '<img class ="joo" src ="https://howshekilledit.com/assets/Water.gif" width = "100%"/><img class = "joo" src = "https://howshekilledit.com/assets/jootext.gif" width = "100%" />'+"<div class='embed-container' id = 'joocont' ><iframe src='https://player.vimeo.com/video/298800899?byline=false;title=false;portrait=false;' frameborder='0'  id = 'joovid' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>";  //Joo
 works[0].onclick = function() {//start joo click
 	fullscreen(this.html);
 		
 	$(audioElement).attr('id', 'jooaud'); 
 	//var audioElement = $('#jooaud'); 
-    audioElement.setAttribute('src', 'http://greenmorgan.com/assets/joosound.mp3');
+    audioElement.setAttribute('src', 'https://howshekilledit.com/assets/joosound.mp3');
 	//while(current === 0){
 		audioElement.play(); 
 	//}
@@ -320,7 +320,7 @@ works[4].onclick = function() {
 	fullscreen(this.html);
 }; //David
 
-works[10].html = '<video autoplay width="100%" controls><source src="http://greenmorgan.com/assets/chika-720.mp4" type="video/mp4">Your browser does not support the video tag.</video>';
+works[10].html = '<video autoplay width="100%" controls><source src="https://howshekilledit.com/assets/chika-720.mp4" type="video/mp4">Your browser does not support the video tag.</video>';
 works[10].onclick = function() {
 	fullscreen(this.html);
 }; //CHiKA, update her Google form
